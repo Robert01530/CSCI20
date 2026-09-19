@@ -14,11 +14,11 @@ int main()
 
   if (readyForTrip)
   {
-    Cout << "The vehicle is ready for the road trip." << end1;
+    cout << "The vehicle is ready for the road trip." << endl;
   }
   else
   {
-    cout << "The vehicle is not ready for the road trip." << end1;
+    cout << "The vehicle is not ready for the road trip." << endl;
   }
   return 0;
 }
