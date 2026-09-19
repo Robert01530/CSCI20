@@ -6,7 +6,7 @@ int main()
   int fuelPercent = 40;
   bool tiresGood = true;
   bool phoneCharged = false;
-  bool Map = true;
+  bool map = true;
   bool engineWarning = false;
   bool enoughFuel = fuelPercent >= 25;
   bool navigationReady = phoneCharged || map;
@@ -18,6 +18,7 @@ int main()
   }
   else
   {
-    cout << "
+    cout << "The vehicle is not ready for the road trip." << end1;
+  }
   return 0;
 }
